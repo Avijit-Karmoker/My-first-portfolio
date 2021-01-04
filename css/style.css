@@ -68,6 +68,10 @@ p{
     border-radius: 8px;
 }
 
+.about-details{
+    text-align: justify;
+}
+
                 /** dream area **/
 
 .dream-big-photo{
@@ -94,5 +98,9 @@ p{
     border-radius: 8px;
 }
 
+.about-dream{
+    text-align: justify;
+    padding-bottom: 20px;
+}
 
 
