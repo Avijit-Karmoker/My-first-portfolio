@@ -1,0 +1,11 @@
+body{
+    font-family: 'Noto Serif', serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.name-heighlight{
+    color: #4a69bd;
+}
