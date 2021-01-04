@@ -17,6 +17,7 @@ h3{
 
 p{
     color: #8395a7;
+    text-align: justify
 }
 
                     /** header  **/
@@ -57,7 +58,6 @@ p{
 .header{
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
-    margin-bottom:px;
 }
 
 .link-button{
@@ -73,6 +73,14 @@ p{
 }
 
                 /** dream area **/
+
+.dream-area{
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+}
+
 
 .dream-big-photo{
     width: 40%;
@@ -101,6 +109,51 @@ p{
 .about-dream{
     text-align: justify;
     padding-bottom: 20px;
+    padding-right: 70px;
+}
+
+                        /** experiences **/
+
+.experiences{
+    height: 500px;
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 
+.full-developer{
+    margin: 0 5%;
+    width: 40%;
+    float: left;
+    padding: 0 2%;
+}
+
+.baby-developer{
+    margin: 0 5%;
+    width: 40%;
+    overflow: hidden;
+    padding: 0 2% 1.5%;
+}
+
+.full-experience{
+    box-shadow: 10px 20px 40px #576574;
+    border-radius: 8px;
+}
+
+.single-experience{
+    box-shadow: 10px 20px 40px #576574;
+    border-radius: 8px;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#ff6348, #ff7f50);
+    border-image-slice: 1;
+}
+
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#70a1ff, #3742fa);
+    border-image-slice: 1;
+}
